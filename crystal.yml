@@ -1,0 +1,8 @@
+name: unlicense
+version: 0.1.0
+description: The Unlicense generator
+
+gen:
+  file:
+    unlicense:
+      dest: UNLICENSE
