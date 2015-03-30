@@ -2,7 +2,21 @@ name: unlicense
 version: 0.1.0
 description: The Unlicense generator
 
+author:
+  name: Chris Tate
+  email: chris@studiotate.com
+  url: http://studiotate.com
+copyright: 2015 Studio Tate
+
+repository:
+  type: git
+  url: https://github.com/studiotate/crystal-unlicense
+
 gen:
   file:
     unlicense:
       dest: UNLICENSE
+
+generators:
+  project:
+    version: latest

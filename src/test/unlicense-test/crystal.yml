@@ -1,0 +1,7 @@
+name: unlicense-test
+version: 0.1.0
+description: unlicense test
+
+generators:
+  unlicense:
+    version: latest
